@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: solid 2px #555;
+    padding: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+main h2, label, p {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+Button {
+    cursor: pointer;
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+}
+button:hover {
+    background-color: #555;
+    transform: scale(1.02);
+}
+input {
+    background-color: #333;
+    color: white;
+    border: #555 2px solid;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    border: solid 2px #555;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.menu a:hover {
+    background-color: #555;
+    transform: scale(1.02);
+}
+.ui {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.card {
+    border: #555 2px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.card h2 {
+    border-bottom: #555 2px solid;
+    padding-bottom: 0.5rem;
+}
+.com_sec {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.post {
+    padding: 1rem;
+}
+.post:nth-child(odd) {
+    background-color: #444;
+}
+.post .email {
+    border-bottom: #555 2px solid;
+    color: #888;
+}
+h3 {
+    color: white;
+}
+#out {
+    color: white;
+}
